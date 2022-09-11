@@ -1,0 +1,9 @@
+NAME: cash-out_transactions
+TYPE: cash-out
+TRAIN_DATA: "../../../data/atm_transactions/transactions_out_6683.csv"
+ATM_REGISTRY_DATA: "../../../data/atm_transactions/atm_info.csv"
+RESAMPLING_WINDOW: "1H"
+AGG_WINDOW: 4
+ID_COL: "name"
+TIME_COL: "date"
+TIMEZONE: 3

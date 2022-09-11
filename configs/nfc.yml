@@ -1,0 +1,9 @@
+NAME: nfc_transactions
+TYPE: nfc
+TRAIN_DATA: "../../../data/atm_transactions/transactions_nfc.csv"
+ATM_REGISTRY_DATA: "../../../data/atm_transactions/atm_info.csv"
+RESAMPLING_WINDOW: "1D"
+AGG_WINDOW: 3
+ID_COL: "name"
+TIME_COL: "date"
+TIMEZONE: 3
